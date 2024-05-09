@@ -24,7 +24,7 @@ Allure Reporting: Generate detailed and visually appealing test reports with All
 ### Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-Python 3.7 or higher  
+Python 3.10 or higher  
 Pip (Python package installer)  
 Playwright (installation instructions [here](https://playwright.dev/python/docs/intro))  
 Allure (installation instructions [here](https://allurereport.org/docs/gettingstarted-installation/))
