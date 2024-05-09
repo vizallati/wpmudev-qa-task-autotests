@@ -1,6 +1,5 @@
-Feature: Crawl Trigger and Results Display
-  As an administrator, I want to see how my website web pages are linked to my home page
-  so that I can manually search for ways to improve my SEO rankings.
+Feature: QA Test Plugin
+  As a user of the qa-test plugin, I should be able to successfully use all features available to me.
 
 Background:
   Given I have the qa test plugin installed and activated
