@@ -48,8 +48,7 @@ Before running the tests edit the settings.yml with respective creds for your Wo
 Run the tests using the following command:
 
 ```bash
-cd tests
-pytest --alluredir=allure-results
+pytest tests --alluredir=allure-results
 ```
 This command will execute the tests and generate Allure report data in the allure-results directory.
 
@@ -57,6 +56,6 @@ This command will execute the tests and generate Allure report data in the allur
 To generate and view the Allure report, run the following commands:
 
 ```bash
-allure serve path-to-allure-results
+allure serve allure-results
 ```
 This will generate the Allure report and open it in your default web browser.
