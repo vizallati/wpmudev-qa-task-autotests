@@ -17,19 +17,3 @@ Background:
     And  I fill in "https://jaketwo.com" in "website" field
     And  I click on the "save_changes" button
     Then Data is successfully saved
-
-#  Scenario: Check crawl results
-#    When I navigate to the crawler admin page and click on crawl button
-#    Then Crawl results are displayed
-#    And All hyperlinks present on homepage are in results
-#
-#  Scenario: Deletion of previous crawl results
-#    When I navigate to the crawler admin page and click on crawl button
-#    And I click on the crawl button for the second time
-#    Then All hyperlinks present on homepage are in results
-#
-#  Scenario: Check deletion of sitemap file after crawl
-#    Given Sitemap file exists on server
-#    When I navigate to the crawler admin page and click on crawl button
-#    Then Crawl results are displayed
-#    And Sitemap file is deleted
