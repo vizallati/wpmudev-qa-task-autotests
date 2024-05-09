@@ -1,0 +1,28 @@
+locators:
+  pages:
+    login_page:
+      username: '//*[@id="user_login"]'
+      password: '//*[@id="user_pass"]'
+      login_button: '//*[@id="wp-submit"]'
+    dashboard_page:
+      menu_item: '//*[@class="wp-menu-name" and text()="{item_name}"]'
+    plugins_page:
+      add_new_plugin: '//*[@href="plugin-install.php"]'
+      choose_file_button: '//*[@id="pluginzip"]'
+      installation_confirmation: '//*[text()="Plugin installed successfully."]'
+      activation_confirmation: '//*[text()="Plugin activated."]'
+      deactivate_qa_test: '//*[@aria-label="Deactivate QA Test"]'
+      deactivation_confirmation: '//*[text()="Plugin deactivated."]'
+      delete_qa_test: '//*[@aria-label="Delete QA Test"]'
+      deletion_confirmation: '//*[@id="qa-test-deleted"]'
+    qa_test:
+      full_name: '//*[@id="qa_test_fullname"]'
+      nick_name: '//*[@id="qa_test_nickname"]'
+      address: '//*[@id="qa_test_address"]'
+      day_of_birth: '//*[@id="qa_test_dob_d"]'
+      month_of_birth: '//*[@id="qa_test_dob_m"]'
+      year_of_birth: '//*[@id="qa_test_dob_y"]'
+      email_address: '//*[@id="qa_test_email"]'
+      website: '//*[@id="qa_test_web"]'
+      save_changes: '//input[@value="Save Changes"]'
+      save_message: '//*[@id="setting-error-settings_updated"]'
