@@ -1,6 +1,6 @@
 wordpress_creds:
-  host: https://adjaniokpuegbe.com
+  host: localhost
   users:
     administrator:
-      username: grandmaster
-      password: Grandmaster007$
+      username: admin
+      password: admin
